@@ -1,4 +1,8 @@
-import { LOCAL_STORAGE_THEME_KEY, ThemeContext, Theme } from './ThemeContext'
+import {
+  LOCAL_STORAGE_THEME_KEY,
+  ThemeContext,
+  Theme,
+} from '../lib/ThemeContext'
 import { useMemo, useState, FC } from 'react'
 
 const defaultTheme =
